@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets (never commit API keys)
+.env
+
+# Raw third-party comments are not redistributed
+data/posts.csv
+data/manual.csv
+data/relevant.csv
+data/check20.csv

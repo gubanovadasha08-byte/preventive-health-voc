@@ -1,0 +1,369 @@
+{
+  "n_classified": 296,
+  "n_relevant": 73,
+  "n_excluded": 7,
+  "stance_counts": {
+    "skeptical": 33,
+    "mixed": 9,
+    "supportive": 22,
+    "neutral": 9
+  },
+  "stance_by_source": {
+    "hackernews": {
+      "skeptical": 25,
+      "mixed": 5,
+      "supportive": 18,
+      "neutral": 7
+    },
+    "manual": {
+      "skeptical": 8,
+      "mixed": 4,
+      "supportive": 4,
+      "neutral": 2
+    }
+  },
+  "topic_stance": {
+    "evidence_and_benefit": {
+      "skeptical": 16,
+      "mixed": 9,
+      "supportive": 19,
+      "neutral": 4
+    },
+    "overdiagnosis_and_anxiety": {
+      "skeptical": 15,
+      "mixed": 6,
+      "supportive": 0,
+      "neutral": 0
+    },
+    "price_and_value": {
+      "skeptical": 10,
+      "mixed": 3,
+      "supportive": 6,
+      "neutral": 2
+    },
+    "trust_in_companies": {
+      "skeptical": 17,
+      "mixed": 1,
+      "supportive": 0,
+      "neutral": 1
+    },
+    "interest_and_motivation": {
+      "skeptical": 1,
+      "mixed": 2,
+      "supportive": 4,
+      "neutral": 3
+    },
+    "accessibility_and_equity": {
+      "skeptical": 2,
+      "mixed": 0,
+      "supportive": 1,
+      "neutral": 3
+    },
+    "doctor_relationship": {
+      "skeptical": 2,
+      "mixed": 0,
+      "supportive": 1,
+      "neutral": 1
+    },
+    "privacy_and_data": {
+      "skeptical": 3,
+      "mixed": 0,
+      "supportive": 0,
+      "neutral": 0
+    }
+  },
+  "topic_totals": {
+    "evidence_and_benefit": 48,
+    "overdiagnosis_and_anxiety": 21,
+    "price_and_value": 21,
+    "trust_in_companies": 19,
+    "interest_and_motivation": 10,
+    "accessibility_and_equity": 6,
+    "doctor_relationship": 4,
+    "privacy_and_data": 3
+  },
+  "examples": {
+    "privacy_and_data": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter questions whether the Bristle microbiome test adequately protects user data from being used by insurers and expresses doubt about privacy guarantees.",
+        "quote": "How is it nearly impossible? From what I understand, this oral \"profile\" is stored and then provided to the user on demand.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=26397244"
+      },
+      {
+        "stance": "skeptical",
+        "argument": "The commenter notes that the at-home metabolomics test company must release raw data under HIPAA and critiques its marketing for allegedly highlighting data availability only in expensive plans while obscuring the same requirement for cheaper ones.",
+        "quote": "They are being sneaky with their marketing, calling attention to the fact that raw data is provided with their expensive plans",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=32336529"
+      }
+    ],
+    "doctor_relationship": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter claims that longevity physicians often order unnecessary lab tests for healthy patients, primarily to profit, while the same preventive advice could be given by family doctors without such testing.",
+        "quote": "In my experience, it’s a physician who orders a bunch of unnecessary labs.",
+        "source": "manual",
+        "url": "http://reddit.com/r/FamilyMedicine/comments/1uayggt/what_does_longevity_medicine_do_today_that/"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter notes that the new blood test for hereditary cancers can improve early detection and prognosis, and that patients and physicians may become more vigilant in monitoring for cancer.",
+        "quote": "Keep in mind that prognosis for cancer improves dramatically when you can detect it early.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37745860"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter notes that Silicon Valley startups are selling cancer blood tests directly to consumers, suggesting that such tests may not always involve a medical professional.",
+        "quote": "There are Silicon Valley startups increasingly selling these directly to consumers",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=45652565"
+      }
+    ],
+    "accessibility_and_equity": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter argues that preventive health scans are expensive, driven by profit motives, and primarily accessible to wealthy individuals seeking to mitigate mortality fears despite limited evidence of benefit.",
+        "quote": "spend a couple grand on a frivolous scan? Rich people gonna rich people.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37267829"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter argues that a cheap cancer blood test would save money, boost productivity, and especially benefit low-income countries by enabling early treatment.",
+        "quote": "If a simple blood test can catch it faster, that's going to save us a bunch of money, and increase productivity (people living longer).",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=10884966"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter questions the resources needed to make preventive MRI scans universally available, noting helium requirements and potential challenges.",
+        "quote": "how many MRI scanners would be needed to make this universal, and in particular how much helium we'd need",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37267205"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter inquires whether early detection and longevity interventions could provide benefits for perimenopausal women, highlighting a perceived lack of investment in that demographic.",
+        "quote": "Question: is there any overlap with your work and things that might benefit perimenopausal women either in predicted outcomes, prevention, or treatment (for everything)?",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/IAmA/comments/1ozhent/im_a_double_boardcertified_physician_and_an/"
+      }
+    ],
+    "interest_and_motivation": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter suggests that longevity medicine aims to stay ahead of preventive guidelines but is largely driven by wealthy individuals following health fads.",
+        "quote": "but in practice it’s a lot of well meaning wealthy people jumping onto certain health fads",
+        "source": "manual",
+        "url": "http://reddit.com/r/FamilyMedicine/comments/1uayggt/what_does_longevity_medicine_do_today_that/"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter argues that while medical interventions such as lab tests and scans carry risks, they can be beneficial for screening in low‑risk individuals when the potential benefits outweigh the harms.",
+        "quote": "In high risk individuals, benefits outweigh risks, but in low risks individuals, they might not.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/immortalists/comments/1njs7l5/whats_the_best_longevity_treatment_youve_actually/"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter supports longevity medicine in principle but warns that its benefits are often small relative to costs and warns against over‑investigation and overpromising of test results.",
+        "quote": "Big fan. Must be done right and avoid over promising benefits to justify premiums.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/ausjdocs/comments/1lguqpj/thoughts_on_longevity_medicine/"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter suggests that pre‑screening for Alzheimer’s risk could motivate people to adopt lifestyle changes like diet, sleep, and exercise.",
+        "quote": "pre screening for risk might provide additional motivation",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34208802"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter argues that getting a hereditary cancer blood test is ethically advisable for IVF couples to identify potential incompatibilities.",
+        "quote": "Frankly if you can do this it seems like it’s almost unethical not to check if you and your partner",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37744934"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter asks whether DNA testing results are taken into account.",
+        "quote": "Do you account for DNA testing results? (insert obligatory “a pox on orrin hatch” here)",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=32031175"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter asks whether the at-home microbiome test can identify causes of bad breath and provide remedial suggestions.",
+        "quote": "Some people suffer from bad breath due to their oral microbiome. Could your test diagnose that too and suggest solutions?",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=26396225"
+      }
+    ],
+    "trust_in_companies": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter suggests that the Theranos blood-test scandal will lead to class-action lawsuits over corrected reports, indicating distrust in the company's testing.",
+        "quote": "The class-action lawyers must be salivating over \"tens of thousands of corrected blood-test reports\"",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=11727327"
+      },
+      {
+        "stance": "skeptical",
+        "argument": "The commenter argues that full-body MRI scans offered by companies like Prenuvo are medically useless and exploit consumers' lack of knowledge.",
+        "quote": "Prenuvo is an American company that has cleverly identified the lack of scientific medical knowledge among the general population and is capitalising on it.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/Radiology/comments/1p55ecw/are_full_body_mris_a_scam/"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter argues that testosterone testing carries high risk of harmful overtreatment due to clinician self‑interest, whereas broad‑screening tests like full‑body MRI pose lower abuse risk though they may still be unnecessary.",
+        "quote": "I'd agree that testing for low (or \"low\") testosterone seems like the most potentially harmful of these tests.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=43304964"
+      }
+    ],
+    "overdiagnosis_and_anxiety": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter warns that false positives/negatives in early cancer blood tests can cause anxiety and irrational actions.",
+        "quote": "Yeah false positive vs negative is really critical when you tell people they might have cancer... people will do crazy stuff.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=15041307"
+      },
+      {
+        "stance": "skeptical",
+        "argument": "The commenter argues that routine blood tests for asymptomatic people can cause unnecessary anxiety due to overdiagnosis of benign abnormalities.",
+        "quote": "doing a test when it’s not necessary does more harm than good",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/AskDocs/comments/1cncew1/doctor_said_routine_bloodwork_isnt_necessary_at/"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter advises establishing a PSA baseline and cautions against overreacting to isolated test results.",
+        "quote": "That's why getting an early PSA baseline is important, so you know what value is \"good\".",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=23915930"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter argues that whole-body MRI screening is largely a scam for average-risk individuals due to low sensitivity and overdiagnosis risks, but may be reasonable for high-risk patients seeking cancer detection.",
+        "quote": "In the general population, average risk worried well patient? Yes, it’s more or less a scam.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/Radiology/comments/1p55ecw/are_full_body_mris_a_scam/"
+      }
+    ],
+    "price_and_value": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter argues that US healthcare prices, including for routine procedures, are excessively high compared to Europe, implying concerns about the cost of preventive tests like at-home colon cancer screening.",
+        "quote": "The thing is, American healthcare prices are horribly overblown.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=25763022"
+      },
+      {
+        "stance": "skeptical",
+        "argument": "The commenter discusses the cost structure of full-body MRIs, noting that personnel costs dominate and suggesting that hospital overcharges add to the expense.",
+        "quote": "The cost (outside of normal cryogenics resupply) is mainly the one of the personnel running it",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37463033"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter notes that early detection blood tests can identify in situ tumors but questions whether they are cost-effective.",
+        "quote": "Whether this is a good idea / cost-effective is another question, and certainly a big deal as you point out.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=31851602"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter argues that longevity medicine targets wealthy healthy people and disregards cost-effectiveness, but acknowledges some merit as seen in doctors performing early colonoscopies.",
+        "quote": "It’s seemingly preventative medicine targeting young, healthy and wealthy individuals who are happy to throw cost-effectiveness out the window.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/ausjdocs/comments/1lguqpj/thoughts_on_longevity_medicine/"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter endorses the cheap blood test for pancreatic cancer and suggests finding alternative funding if taxpayers won't pay for it.",
+        "quote": "Good idea. If the American voter/taxpayer (by proxy) isn’t willing to pay for it, let’s find ways to find people who are",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=43042604"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter describes how a preventive CT scan for arterial health led to early detection of lung cancer, justifying the cost and effort.",
+        "quote": "Without my curiosity about my arterial health, I would be in the throes of lung cancer now.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/Biohackers/comments/1umxdda/fullbody_mris_are_everywhere_for_people_whove/"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter notes that Theranos blood testing is limited and costly in California due to regulatory hurdles, with only one public testing center, and offers to help users near Palo Alto arrange tests.",
+        "quote": "there is effectively only one theranos testing center place open to the public in California",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=10397558"
+      }
+    ],
+    "evidence_and_benefit": [
+      {
+        "stance": "skeptical",
+        "argument": "The commenter cautions that the blood test's early cancer detection claims may be overstated, reflecting typical press-release exaggeration.",
+        "quote": "this is a bit optimistic; be aware that press-release-by-science almost always states near-term impact.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=16188235"
+      },
+      {
+        "stance": "skeptical",
+        "argument": "The commenter argues that annual routine blood tests provide no benefit for young, healthy individuals.",
+        "quote": "There is no benefit to annual routine blood work in someone who's otherwise young and healthy.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/AskDocs/comments/1cncew1/doctor_said_routine_bloodwork_isnt_necessary_at/"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter argues that while Alzheimer's blood testing is voluntary and may help with planning, its limited treatment value and risk of overemphasis make widespread screening questionable.",
+        "quote": "If there are limited mitigations, it's not appropriate for most people to be screened.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=49422354"
+      },
+      {
+        "stance": "mixed",
+        "argument": "The commenter notes that while the early cancer blood test lacks follow-up and localization making it clinically useless and may cause patient stress, it is scientifically promising and warrants further study.",
+        "quote": "The issue is that there's no follow-up test, at the moment.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=23917151"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter argues that blood tests provide valuable information about biomarkers, mineral storage, and hormone stimulation that reflects how you feel.",
+        "quote": "Often it is the level of certain biomarkers present in the blood that actually reflects how you feel, not the level in systemic tissues.",
+        "source": "manual",
+        "url": "https://www.reddit.com/r/Biohackers/comments/uujn38/are_blood_tests_pointless/"
+      },
+      {
+        "stance": "supportive",
+        "argument": "The commenter argues that non-invasive imaging like ultrasound or CT can detect prostate cancer and hernias with little risk, making them a worthwhile preventive screening option.",
+        "quote": "a non-invasive scan (ultrasound, CT) still has a decent chance of catching prostate cancer and hernias",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=34817750"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter explains that cancer screenings aim to reduce premature death rather than extend overall lifespan, framing the distinction as a matter of terminology.",
+        "quote": "Cancer screening was never really designed to increase longevity. Screenings are really designed to decrease premature deaths from cancer.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=37297032"
+      },
+      {
+        "stance": "neutral",
+        "argument": "The commenter notes that multi-cancer blood tests are already available through routine primary care and could become an annual standard of care.",
+        "quote": "That's already a thing, at least everywhere I've ever lived.",
+        "source": "hackernews",
+        "url": "https://news.ycombinator.com/item?id=27629036"
+      }
+    ]
+  }
+}
